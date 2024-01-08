@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Von Clean</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/Backup_of_sdfvfsvsfdc.png" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+.site-footer {
+  background-color: #26272b;
+  padding: 45px 0 20px;
+  font-size: 15px;
+  line-height: 24px;
+  color: #737373;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+}
+.site-footer hr {
+  border-top-color: #bbb;
+  opacity: 0.5;
+}
+.site-footer hr.small {
+  margin: 20px 0;
+}
+.site-footer h6 {
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-top: 5px;
+  letter-spacing: 2px;
+}
+.site-footer a {
+  color: #737373;
+}
+.site-footer a:hover {
+  color: #fff;
+  text-decoration: none;
+} 
+.footer-links {
+  padding-left: 0;
+  list-style: none;
+}
+.footer-links li {
+  display: block;
+}
+.footer-links a {
+  color: #737373;
+}
+.footer-links a:active,
+.footer-links a:focus,
+.footer-links a:hover {
+  color: #fff;
+  text-decoration: none;
+} 
+.site-footer .social-icons {
+  text-align: right;
+}
+.site-footer .social-icons a {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  margin-left: 6px;
+  margin-right: 0;
+  border-radius: 100%;
+  background-color: #33353d;
+}
+.copyright-text {
+  margin: 0;
+}
+@media (max-width: 991px) {
+  .site-footer [class^="col-"] {
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 767px) {
+  .site-footer {
+    padding-bottom: 0;
+  }
+  .site-footer .copyright-text,
+  .site-footer .social-icons {
+    text-align: center;
+  }
+}
+.social-icons {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+.social-icons li {
+  display: inline-block;
+  margin-bottom: 4px;
+} 
+.social-icons a {
+  background-color: #eceeef;
+  color: #818a91;
+  font-size: 16px;
+  display: inline-block;
+  line-height: 44px;
+  width: 44px;
+  height: 44px;
+  text-align: center;
+  margin-right: 8px;
+  border-radius: 100%;
+  -webkit-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+.social-icons a:active,
+.social-icons a:focus,
+.social-icons a:hover {
+  color: #fff;
+  background-color: #29aafe;
+} 
+.social-icons a.facebook:hover {
+  background-color: #3b5998;
+}
+.social-icons a.twitter:hover {
+  background-color: #00aced;
+}
+.social-icons a.linkedin:hover {
+  background-color: #007bb6;
+}
+.social-icons a.dribbble:hover {
+  background-color: #ea4c89;
+}
+ 
+
+  
+    </style>
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Topbar Start -->
+    <div class="container-fluid position-relative p-0">
+        <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0" >
+            <a href="" class="navbar-brand p-0">
+               
+                <img src="img/Backup_of_sdfvfsvsfdc.png" alt="Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="fa fa-bars"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto py-0"  style="font-size: 2px;">
+                    <a href="index.html" class="nav-item nav-link">Home</a>
+                    <a href="about.html" class="nav-item nav-link">About</a>
+                    <a href="service.html" class="nav-item nav-link">Citizen Science</a>
+                    <a href="package.html" class="nav-item nav-link active">Geospatial Waste Mapping</a>
+                    <a href="team.html" class="nav-item nav-link">Our Team</a>
+                   
+                    </div>
+                    <a 
+               
+                <a  class="btn btn-primary rounded-pill py-2 px-4" href="contact.html"  style="background-color: #0B4E07; border-color: #0B4E07;">Contact</a>
+            </div>
+        </nav>
+    
+            <div class="container-fluid bg-primary py-5 mb-5 hero-header">
+                <div class="container py-5">
+                    <div class="row justify-content-center py-5">
+                        <div class="col-lg-10 pt-lg-5 mt-lg-5 text-center">
+                            <h1 class="display-3 text-white animated slideInDown">Geo-spatial Waste Mapping Page
+                            </h1>
+                            <nav aria-label="breadcrumb">
+                                
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- Navbar & Hero End -->
+
+    <div class="container-xxl py-5">
+        <div class="container">
+                        <div class="text-center wow" data-wow-delay="0.1s">
+                <h6 class="section-title bg-white text-center text-primary px-3"></h6>
+                <h1 class="mb-5">Geo-Spatial Waste Mapping</h1>
+                <p class="mb-4">
+                    Navigating Towards a Cleaner Future
+                    In our pursuit of revolutionizing waste management, VonClean introduces Geo-Spatial Waste Mapping—an innovative approach that harnesses the power of technology and geographic data to create a comprehensive waste management solution. Our commitment to a cleaner and more sustainable future is at the core of this endeavor.
+                                    </p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-xxl py-5">
+        <div class="container">
+                        <div class="text-center wow" data-wow-delay="0.1s">
+                <h6 class="section-title bg-white text-center text-primary px-3"></h6>
+                <h1 class="mb-5">Understanding Geo-Spatial Waste Mapping
+                </h1>
+                <p class="mb-4">
+                    Geo-Spatial Waste Mapping is the process of using geographical information systems (GIS), satellite imagery, and drone technology to visualize, track, and manage waste in real-time. It transforms the way we perceive and address waste management challenges by providing a dynamic and data-driven perspective.
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="row g-5">
+           
+            <div class="col-lg-100 wow" data-wow-delay="0.3s">
+                <h6 class="section-title bg-white text-start text-primary pe-3">
+                  
+</h6>
+                <h1 class="mb-4">Why Geo-Spatial 
+
+                    <span class="text-primary">Waste Mapping Matters</span></h1>
+                <p class="mb-4">Geo-Spatial Waste Mapping is a game-changer for several reasons:
+
+
+                </p>
+               
+               
+            <div class="col-lg-100 wow" data-wow-delay="0.3s">
+                <h6 class="section-title bg-white text-start text-primary pe-3">
+                  
+</h6>
+             
+                <div class="row gy-2 gx-4 mb-4">
+                    <div class="col-sm-6">
+                        <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Optimized Resource Allocation: By analyzing geographic data, we can allocate resources more effectively, reducing operational costs and environmental impact.
+
+                        </p>
+                    </div>
+                    <div class="col-sm-6">
+                        <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i> Environmental Preservation: Waste mapping helps us protect the environment by preventing illegal dumping and minimizing pollution.
+
+                        </p>
+                    </div>
+                    <div class="col-sm-6">
+                        <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Data-Driven Decision-Making: We make informed decisions based on real-time data, ensuring our waste management efforts are always on the right track.
+                        </p>
+                    </div>
+                    <div class="col-sm-6">
+                        <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i> Community Engagement: Geo-Spatial Waste Mapping empowers communities to actively participate in waste management, fostering a sense of responsibility.
+                        </p>
+                    </div>
+                    
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="col-lg-100 wow" data-wow-delay="0.3s">
+            <h6 class="section-title bg-white text-start text-primary pe-3">
+              
+</h6>
+            <h1 class="mb-4">How VonClean Implements 
+
+
+                <span class="text-primary">Geo-Spatial Waste Mapping</span></h1>
+            <p class="mb-4">At VonClean, we've seamlessly integrated Geo-Spatial Waste Mapping into our waste management system:
+
+
+
+            </p>
+           
+           
+        <div class="col-lg-100 wow" data-wow-delay="0.3s">
+            <h6 class="section-title bg-white text-start text-primary pe-3">
+              
+</h6>
+         
+            <div class="row gy-2 gx-4 mb-4">
+                <div class="col-sm-6">
+                    <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Drone Technology: Our fleet of drones equipped with high-resolution cameras and sensors conducts aerial surveys, capturing real-time data on waste hotspots and volumes.
+
+                    </p>
+                </div>
+                <div class="col-sm-6">
+                    <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i> GIS Technology: Geographic information systems analyze this data, creating interactive maps that guide waste collection teams.
+
+                    </p>
+                </div>
+                <div class="col-sm-6">
+                    <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Resource Optimization: We optimize waste collection routes and schedules based on the insights derived from Geo-Spatial Waste Mapping.
+                    </p>
+                </div>
+                <div class="col-sm-6">
+                    <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i> Citizen Involvement: Through our mobile application, citizens actively participate by reporting waste issues and contributing to the waste mapping process.
+                    </p>
+                </div>
+                
+                <h1 class="mb-4">
+
+
+                    <span class="text-primary">Join Us on the Journey
+                    </span></h1>
+                <p class="mb-4">Geo-Spatial Waste Mapping is more than a technological advancement; it's a commitment to a cleaner, greener, and more sustainable future. We invite you to join us on this transformative journey towards responsible waste management.
+
+                    By embracing technology, engaging communities, and prioritizing data-driven solutions, we can navigate towards a future where waste is managed efficiently, environmental impact is minimized, and every action contributes to a cleaner world.
+                    
+                    Together, we can redefine waste management, one data point at a time. Welcome to the future of waste management with VonClean.
+                    
+    
+                </p>
+            </div>
+            
+        </div>
+    </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+<footer class="site-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-6">
+          <h6>About</h6>
+          <p class="text-justify">Our story is one of innovation, dedication, and a deep-rooted desire to make a positive impact on the environment. We recognized the urgent need to address the escalating waste problem and its detrimental effects on our planet and communities. That recognition sparked the birth of VonClean.
+
+            The VonClean Difference: Technology Meets Community
+            What sets VonClean apart is our holistic approach that blends cutting-edge technology with community engagement. We believe that the key to effective waste management lies in involving every member of society.
+            </p>
+        </div>
+
+        <div class="col-6 col-md-3">
+          <h6></h6>
+          <ul class="footer-links ">
+            <h4 class="text-white mb-3">Contact</h4>
+            <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Morrebs ICT, Suite 10, Upper Floor, Rainbow Plaza, Beside Silk Suites, Along Zarmaganda – Rayfield Road, Jos South, Nigeria.</p>
+            <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+2348077089067</p>
+            <p class="mb-2"><i class="fa fa-envelope me-3"></i>vonclean1@gmail.com </p>
+          </ul>
+        </div>
+
+        <div class="col-6 col-md-3">
+          <h6>Quick Links</h6>
+          <ul class="footer-links">
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="service.html">Citizen Science</a></li>
+            <li><a href="package.html">Geospatial Waste Mapping</a></li>
+            <li><a href="team.html">Our Team</a></li>
+          </ul>
+        </div>
+      </div>
+      <hr class="small">
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-sm-6 col-12">
+            &copy; <a class="border-bottom" href="#">VonClean</a>, All Right Reserved.
+
+            <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+        </div>
+
+        <div class="col-md-4 col-sm-6 col-12">
+          <ul class="social-icons">
+            <li><a class="facebook" href="https://web.facebook.com/profile.php?id=61550829960792"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a class="twitter" href="https://twitter.com/CleanVon18366"><i class="fab fa-twitter"></i></a></li>
+            <li><a class="dribbble" href="https://instagram.com/vonclean?igshid=MjEwN2IyYWYwYw"><i class="fab fa-instagram"></i></a></li>
+            <li><a class="linkedin" href="https://www.linkedin.com/company/99928020/"><i class="fab fa-linkedin-in"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+   
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<!-- Footer End -->
+
+
+
+
+  
+
+
+    
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
